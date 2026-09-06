@@ -1,0 +1,11 @@
+//
+//  Config.example
+//  AlternativeNORscooter
+//
+//  Created by Parviz Azimov on 6.9.2026.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+SERIAL_NUMBER = "% your scooter's serial number here%"

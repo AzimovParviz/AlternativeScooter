@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80814E2D2FE964D30094B96F /* AlternativeNORscooterWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80814E0D2FE964D10094B96F /* AlternativeNORscooterWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80814E1A2FE964D30094B96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80983A162FE4743D00C77C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80814E0C2FE964D10094B96F;
+			remoteInfo = "AlternativeNORscooterWatch Watch App";
+		};
+		80814E242FE964D30094B96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80983A162FE4743D00C77C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80814E0C2FE964D10094B96F;
+			remoteInfo = "AlternativeNORscooterWatch Watch App";
+		};
+		80814E2B2FE964D30094B96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80983A162FE4743D00C77C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80814E0C2FE964D10094B96F;
+			remoteInfo = "AlternativeNORscooterWatch Watch App";
+		};
+		80983A2C2FE4743E00C77C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80983A162FE4743D00C77C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80983A1D2FE4743D00C77C81;
+			remoteInfo = AlternativeNORscooter;
+		};
+		80983A362FE4743E00C77C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80983A162FE4743D00C77C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80983A1D2FE4743D00C77C81;
+			remoteInfo = AlternativeNORscooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80814E312FE964D30094B96F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				80814E2D2FE964D30094B96F /* AlternativeNORscooterWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80814E0D2FE964D10094B96F /* AlternativeNORscooterWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlternativeNORscooterWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80814E192FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlternativeNORscooterWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80814E232FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlternativeNORscooterWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80983A1E2FE4743D00C77C81 /* AlternativeNORscooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlternativeNORscooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80983A2B2FE4743E00C77C81 /* AlternativeNORscooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlternativeNORscooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80983A352FE4743E00C77C81 /* AlternativeNORscooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlternativeNORscooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80814E392FE965FC0094B96F /* Exceptions for "AlternativeNORscooter" folder in "AlternativeNORscooterWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Bluetooth/BLEManager.swift,
+				Bluetooth/ScooterController.swift,
+				Views/WatchConnectView.swift,
+				Views/WatchScooterView.swift,
+			);
+			target = 80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */;
+		};
+		80983A492FE4770600C77C81 /* Exceptions for "AlternativeNORscooter" folder in "AlternativeNORscooter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				Views/WatchConnectView.swift,
+				Views/WatchScooterView.swift,
+			);
+			target = 80983A1D2FE4743D00C77C81 /* AlternativeNORscooter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80814E0E2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AlternativeNORscooterWatch Watch App";
+			sourceTree = "<group>";
+		};
+		80814E1C2FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AlternativeNORscooterWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		80814E262FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AlternativeNORscooterWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		80983A202FE4743D00C77C81 /* AlternativeNORscooter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80983A492FE4770600C77C81 /* Exceptions for "AlternativeNORscooter" folder in "AlternativeNORscooter" target */,
+				80814E392FE965FC0094B96F /* Exceptions for "AlternativeNORscooter" folder in "AlternativeNORscooterWatch Watch App" target */,
+			);
+			path = AlternativeNORscooter;
+			sourceTree = "<group>";
+		};
+		80983A2E2FE4743E00C77C81 /* AlternativeNORscooterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlternativeNORscooterTests;
+			sourceTree = "<group>";
+		};
+		80983A382FE4743E00C77C81 /* AlternativeNORscooterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlternativeNORscooterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80814E0A2FE964D10094B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E162FE964D30094B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E202FE964D30094B96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A1B2FE4743D00C77C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A282FE4743E00C77C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A322FE4743E00C77C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80983A152FE4743D00C77C81 = {
+			isa = PBXGroup;
+			children = (
+				80983A202FE4743D00C77C81 /* AlternativeNORscooter */,
+				80983A2E2FE4743E00C77C81 /* AlternativeNORscooterTests */,
+				80983A382FE4743E00C77C81 /* AlternativeNORscooterUITests */,
+				80814E0E2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */,
+				80814E1C2FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests */,
+				80814E262FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests */,
+				80983A1F2FE4743D00C77C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80983A1F2FE4743D00C77C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80983A1E2FE4743D00C77C81 /* AlternativeNORscooter.app */,
+				80983A2B2FE4743E00C77C81 /* AlternativeNORscooterTests.xctest */,
+				80983A352FE4743E00C77C81 /* AlternativeNORscooterUITests.xctest */,
+				80814E0D2FE964D10094B96F /* AlternativeNORscooterWatch Watch App.app */,
+				80814E192FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests.xctest */,
+				80814E232FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80814E2E2FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch App" */;
+			buildPhases = (
+				80814E092FE964D10094B96F /* Sources */,
+				80814E0A2FE964D10094B96F /* Frameworks */,
+				80814E0B2FE964D10094B96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				80814E0E2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */,
+			);
+			name = "AlternativeNORscooterWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "AlternativeNORscooterWatch Watch App";
+			productReference = 80814E0D2FE964D10094B96F /* AlternativeNORscooterWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80814E182FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80814E322FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch AppTests" */;
+			buildPhases = (
+				80814E152FE964D30094B96F /* Sources */,
+				80814E162FE964D30094B96F /* Frameworks */,
+				80814E172FE964D30094B96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80814E1B2FE964D30094B96F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80814E1C2FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests */,
+			);
+			name = "AlternativeNORscooterWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "AlternativeNORscooterWatch Watch AppTests";
+			productReference = 80814E192FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80814E222FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80814E352FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch AppUITests" */;
+			buildPhases = (
+				80814E1F2FE964D30094B96F /* Sources */,
+				80814E202FE964D30094B96F /* Frameworks */,
+				80814E212FE964D30094B96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80814E252FE964D30094B96F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80814E262FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests */,
+			);
+			name = "AlternativeNORscooterWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "AlternativeNORscooterWatch Watch AppUITests";
+			productReference = 80814E232FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		80983A1D2FE4743D00C77C81 /* AlternativeNORscooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80983A3F2FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooter" */;
+			buildPhases = (
+				80983A1A2FE4743D00C77C81 /* Sources */,
+				80983A1B2FE4743D00C77C81 /* Frameworks */,
+				80983A1C2FE4743D00C77C81 /* Resources */,
+				80814E312FE964D30094B96F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80814E2C2FE964D30094B96F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80983A202FE4743D00C77C81 /* AlternativeNORscooter */,
+			);
+			name = AlternativeNORscooter;
+			packageProductDependencies = (
+			);
+			productName = AlternativeNORscooter;
+			productReference = 80983A1E2FE4743D00C77C81 /* AlternativeNORscooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80983A2A2FE4743E00C77C81 /* AlternativeNORscooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80983A422FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooterTests" */;
+			buildPhases = (
+				80983A272FE4743E00C77C81 /* Sources */,
+				80983A282FE4743E00C77C81 /* Frameworks */,
+				80983A292FE4743E00C77C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80983A2D2FE4743E00C77C81 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80983A2E2FE4743E00C77C81 /* AlternativeNORscooterTests */,
+			);
+			name = AlternativeNORscooterTests;
+			packageProductDependencies = (
+			);
+			productName = AlternativeNORscooterTests;
+			productReference = 80983A2B2FE4743E00C77C81 /* AlternativeNORscooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80983A342FE4743E00C77C81 /* AlternativeNORscooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80983A452FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooterUITests" */;
+			buildPhases = (
+				80983A312FE4743E00C77C81 /* Sources */,
+				80983A322FE4743E00C77C81 /* Frameworks */,
+				80983A332FE4743E00C77C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80983A372FE4743E00C77C81 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80983A382FE4743E00C77C81 /* AlternativeNORscooterUITests */,
+			);
+			name = AlternativeNORscooterUITests;
+			packageProductDependencies = (
+			);
+			productName = AlternativeNORscooterUITests;
+			productReference = 80983A352FE4743E00C77C81 /* AlternativeNORscooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80983A162FE4743D00C77C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					80814E0C2FE964D10094B96F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					80814E182FE964D30094B96F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 80814E0C2FE964D10094B96F;
+					};
+					80814E222FE964D30094B96F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 80814E0C2FE964D10094B96F;
+					};
+					80983A1D2FE4743D00C77C81 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					80983A2A2FE4743E00C77C81 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 80983A1D2FE4743D00C77C81;
+					};
+					80983A342FE4743E00C77C81 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 80983A1D2FE4743D00C77C81;
+					};
+				};
+			};
+			buildConfigurationList = 80983A192FE4743D00C77C81 /* Build configuration list for PBXProject "AlternativeNORscooter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80983A152FE4743D00C77C81;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80983A1F2FE4743D00C77C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80983A1D2FE4743D00C77C81 /* AlternativeNORscooter */,
+				80983A2A2FE4743E00C77C81 /* AlternativeNORscooterTests */,
+				80983A342FE4743E00C77C81 /* AlternativeNORscooterUITests */,
+				80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */,
+				80814E182FE964D30094B96F /* AlternativeNORscooterWatch Watch AppTests */,
+				80814E222FE964D30094B96F /* AlternativeNORscooterWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80814E0B2FE964D10094B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E172FE964D30094B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E212FE964D30094B96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A1C2FE4743D00C77C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A292FE4743E00C77C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A332FE4743E00C77C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80814E092FE964D10094B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E152FE964D30094B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80814E1F2FE964D30094B96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A1A2FE4743D00C77C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A272FE4743E00C77C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80983A312FE4743E00C77C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80814E1B2FE964D30094B96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */;
+			targetProxy = 80814E1A2FE964D30094B96F /* PBXContainerItemProxy */;
+		};
+		80814E252FE964D30094B96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */;
+			targetProxy = 80814E242FE964D30094B96F /* PBXContainerItemProxy */;
+		};
+		80814E2C2FE964D30094B96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80814E0C2FE964D10094B96F /* AlternativeNORscooterWatch Watch App */;
+			targetProxy = 80814E2B2FE964D30094B96F /* PBXContainerItemProxy */;
+		};
+		80983A2D2FE4743E00C77C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80983A1D2FE4743D00C77C81 /* AlternativeNORscooter */;
+			targetProxy = 80983A2C2FE4743E00C77C81 /* PBXContainerItemProxy */;
+		};
+		80983A372FE4743E00C77C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80983A1D2FE4743D00C77C81 /* AlternativeNORscooter */;
+			targetProxy = 80983A362FE4743E00C77C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80814E2F2FE964D30094B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 80983A202FE4743D00C77C81 /* AlternativeNORscooter */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlternativeNORscooterWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AlternativeNORscooterWatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = AzimovParviz.AlternativeNORscooter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooter.Watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		80814E302FE964D30094B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 80983A202FE4743D00C77C81 /* AlternativeNORscooter */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlternativeNORscooterWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AlternativeNORscooterWatch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = AzimovParviz.AlternativeNORscooter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooter.Watch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		80814E332FE964D30094B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AzimovParviz.AlternativeNORscooterWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternativeNORscooterWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternativeNORscooterWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		80814E342FE964D30094B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AzimovParviz.AlternativeNORscooterWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternativeNORscooterWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternativeNORscooterWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		80814E362FE964D30094B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlternativeNORscooterWatch-Watch-AppUITests-Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AzimovParviz.AlternativeNORscooterWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AlternativeNORscooterWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		80814E372FE964D30094B96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlternativeNORscooterWatch-Watch-AppUITests-Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AzimovParviz.AlternativeNORscooterWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AlternativeNORscooterWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		80983A3D2FE4743E00C77C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80983A3E2FE4743E00C77C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80983A402FE4743E00C77C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 80983A202FE4743D00C77C81 /* AlternativeNORscooter */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlternativeNORscooter/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth access to find and connect to your scooter";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80983A412FE4743E00C77C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 80983A202FE4743D00C77C81 /* AlternativeNORscooter */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlternativeNORscooter/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth access to find and connect to your scooter";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80983A432FE4743E00C77C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternativeNORscooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternativeNORscooter";
+			};
+			name = Debug;
+		};
+		80983A442FE4743E00C77C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternativeNORscooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternativeNORscooter";
+			};
+			name = Release;
+		};
+		80983A462FE4743E00C77C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlternativeNORscooter;
+			};
+			name = Debug;
+		};
+		80983A472FE4743E00C77C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 253C9WQZDN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzimovParviz.AlternativeNORscooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlternativeNORscooter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80814E2E2FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80814E2F2FE964D30094B96F /* Debug */,
+				80814E302FE964D30094B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80814E322FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80814E332FE964D30094B96F /* Debug */,
+				80814E342FE964D30094B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80814E352FE964D30094B96F /* Build configuration list for PBXNativeTarget "AlternativeNORscooterWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80814E362FE964D30094B96F /* Debug */,
+				80814E372FE964D30094B96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80983A192FE4743D00C77C81 /* Build configuration list for PBXProject "AlternativeNORscooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80983A3D2FE4743E00C77C81 /* Debug */,
+				80983A3E2FE4743E00C77C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80983A3F2FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80983A402FE4743E00C77C81 /* Debug */,
+				80983A412FE4743E00C77C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80983A422FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80983A432FE4743E00C77C81 /* Debug */,
+				80983A442FE4743E00C77C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80983A452FE4743E00C77C81 /* Build configuration list for PBXNativeTarget "AlternativeNORscooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80983A462FE4743E00C77C81 /* Debug */,
+				80983A472FE4743E00C77C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80983A162FE4743D00C77C81 /* Project object */;
+}
