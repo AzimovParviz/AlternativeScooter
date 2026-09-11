@@ -31,6 +31,8 @@ enum Gearing {
     static let P4: UInt8 = 0x03 // Walk
 }
 
+private var serialNumber = AppConfig.bleSerialNumber
+
 class ScooterController: ObservableObject {
     var bleManager: BLEManager
     private var logger: Logger
@@ -41,7 +43,7 @@ class ScooterController: ObservableObject {
         
         self.bleManager.onNotificationStreamEstablished = { [weak self] in
             Task { [weak self] in
-                await self?.authenticate(sn: AppConfig.bleSerialNumber)
+                await self?.authenticate(sn: serialNumber)
             }
         }
     }
